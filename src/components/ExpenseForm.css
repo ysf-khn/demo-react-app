@@ -1,0 +1,49 @@
+.expense-form {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #85b8e7;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+form {
+  position: relative;
+}
+
+.form-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+input {
+  border: none;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  /* position: absolute; */
+  right: 0.1rem;
+  bottom: 0.1rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+
+button:hover {
+  background-color: #1c5c97;
+}

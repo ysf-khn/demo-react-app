@@ -1,0 +1,16 @@
+.expense-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  background-color: #85b8e7;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 10px;
+}
+
+.expenses {
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
