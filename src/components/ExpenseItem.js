@@ -2,15 +2,14 @@ import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
   return (
-    <ul className="expenses">
+    <div className="expenses">
       {props.items.map((expense) => (
-        <li className="expense-item" key={expense.id}>
-          <div>{expense.date}</div>
+        <div className="expense-item" key={expense.id}>
           <div>{expense.title}</div>
           <div>$ {expense.amount}</div>
-        </li>
+        </div>
       ))}
-    </ul>
+    </div>
   );
 };
 
